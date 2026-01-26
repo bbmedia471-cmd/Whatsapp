@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Continue to Chat</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+
+<style>
+:root {
+  --wa-green: #25D366;
+  --wa-gray: #8a8a8a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  background: #fff;
+  color: #111;
+  text-align: center;
+}
+
+/* TOP BAR */
+.topbar {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.topbar-left {
+  font-size: 22px;
+}
+
+.topbar-center {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.topbar-center img {
+  height: 22px;
+}
+
+.topbar-right {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--wa-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* MAIN */
+.main {
+  padding: 40px 20px 20px;
+}
+
+/* LOGO */
+.logo-wrap {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 6px solid #f5c542;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+
+.logo-wrap img {
+  width: 90%;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  background: var(--wa-green);
+  color: #fff;
+  padding: 14px 44px;
+  font-size: 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+/* TEXT */
+.username {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.extra {
+  font-size: 15px;
+  margin-bottom: 28px;
+}
+
+.mid-text {
+  font-size: 15px;
+  color: var(--wa-gray);
+}
+
+.mid-link {
+  color: #1877f2;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+.footer {
+  background: #000;
+  padding: 24px 0 30px;
+}
+
+.download-btn {
+  background: var(--wa-green);
+  color: #000;
+  font-weight: 600;
+  padding: 14px 50px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+  text-decoration: none;
+}
+
+/* SOCIAL ICONS */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.socials img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1.5px solid #fff;
+  padding: 8px;
+}
+</style>
+
+<script>
+  setTimeout(function () {
+    window.location.href = "https://wa.me/919876546253";
+  }, 2000);
+</script>
+
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="topbar-left">☰</div>
+
+  <div class="topbar-center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+    <span>WhatsApp</span>
+  </div>
+
+  <div class="topbar-right">↓</div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- YOUR LOGO -->
+  <div class="logo-wrap">
+    <img src="1-removebg-preview (1).png" alt="Brandboy99 Logo">
+  </div>
+
+  <a class="btn" href="https://wa.me/919876546253">Continue to chat</a>
+
+  <div class="username">BRANDBOY99</div>
+  <div class="extra">I want cricket ID</div>
+
+  <div class="mid-text">Don't have WhatsApp yet?</div>
+  <span class="mid-link">Download</span>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+
+  <a class="download-btn" href="https://www.whatsapp.com/download" target="_blank">
+    Download ↓
+  </a>
+
+  <div class="socials">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png">
+  </div>
+
+</div>
+
+</body>
+</html>
